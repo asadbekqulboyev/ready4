@@ -1,0 +1,152 @@
+.contacts {
+    padding-top: 159px;
+
+    .breadcrumbs {
+        span {
+            color: #fff;
+            opacity: 1;
+        }
+    }
+
+    .section_title {
+        padding-top: 36px;
+        text-align: left;
+    }
+
+    &_top {
+        gap: 17px;
+        margin-top: 55px;
+         @media (max-width: 768px) {
+                 margin-top: 24px;
+            }
+    }
+
+    &_content {
+        gap: 28px;
+        padding-top: 38px;
+ @media (max-width: 768px) {
+                 padding-top: 24px;
+            }
+        &_item {
+            width: 100%;
+            border-radius: 20px;
+            backdrop-filter: blur(30px);
+            background: rgba(255, 255, 255, 0.02);
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 40px;
+            gap: 20px;
+            @media (max-width: 1024px) {
+                padding: 20px;
+                flex-wrap: wrap;
+            }
+            br{
+                 @media (max-width: 768px) {
+                display: none;
+            }
+            }
+            .contacts_item_title {
+                font-family: 'Segoe UI';
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 113%;
+                padding-bottom: 20px;
+            }
+        }
+
+        .contacts_item_list {
+            @media (max-width: 1024px) {
+                width: 50%;
+            }
+             @media (max-width: 768px) {
+                width: 100%;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 11px;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .contacts_content_maps_top {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 113%;
+
+            span {
+                color: #cf06f2;
+            }
+        }
+        .contacts_content_maps{
+            @media (max-width: 1024px) {
+                width: 100%;
+            }
+        }
+        .contacts_content_map {
+            margin-top: 21px;
+
+            iframe {
+                border-radius: 26px;
+                overflow: hidden;
+                @media (max-width: 1024px) {
+                width: 100%;
+            }
+            }
+        }
+
+    }
+}
+
+.registration_info {
+    margin-top: 67px;
+    padding-bottom: 90px;
+     @media (max-width: 768px) {
+        padding-bottom: 60px;
+        margin-top: 60px;
+     }
+     .section_title{
+        padding-top: 0;
+     }
+    .registration_content {
+        margin-top: 50px;
+        display: flex;
+        gap: 100px;
+         @media (max-width: 1024px) {
+            gap: 40px;
+        }
+         @media (max-width: 768px) {
+            flex-direction: column;
+            margin-top: 36px;
+        }
+        .registration_col {
+            display: flex;
+            gap: 39px;
+            flex-direction:column;
+             @media (max-width: 768px) {
+                gap: 20px;
+             }
+            .registration_item {
+
+                .item_title {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 113%;
+                }
+
+                .item_text {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    margin-top: 21px;
+                }
+
+            }
+        }
+    }
+}
