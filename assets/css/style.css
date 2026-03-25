@@ -3006,6 +3006,40 @@
 .modal .pasport_text:hover + .pasport_img {
   transform: scale(1);
 }
+.modal .upload_check {
+  margin-top: 14px;
+  gap: 10px;
+  border-bottom: 0 !important;
+}
+.modal .upload_check p {
+  font-size: 14px;
+  color: #2b2b2b;
+}
+.modal .registration_block {
+  overflow: hidden;
+  transition: all 0.3s ease;
+  max-height: 200px;
+  opacity: 1;
+  padding-top: 9px;
+  border-top: 1px dashed #EEEEEE;
+  margin-top: 21px;
+}
+.modal .registration_block.hidden {
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-8px);
+}
+.modal .registration_block .passport_upload {
+  margin-top: 12px;
+}
+.modal .registration_block .passport_example {
+  margin-top: 8px;
+}
+.modal .registration_block.hidden {
+  transform: translateY(-10px);
+}
 
 .travel_insurance {
   padding-top: 110px;

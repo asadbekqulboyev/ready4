@@ -322,67 +322,67 @@
                             </div>
                         </div>
                     </div>
-                   <div class="registration_info">
-                     <h2 class="section_title">Registration information</h2>
-                    <div class="registration_content">
-                        <div class="registration_col">
-                            <div class="registration_item">
-                                <p class="item_title">Organization Name</p>
-                                <p class="item_text">Balkan Digital Assistance DOO Belgrad</p>
-                            </div>
+                    <div class="registration_info">
+                        <h2 class="section_title">Registration information</h2>
+                        <div class="registration_content">
+                            <div class="registration_col">
+                                <div class="registration_item">
+                                    <p class="item_title">Organization Name</p>
+                                    <p class="item_text">Balkan Digital Assistance DOO Belgrad</p>
+                                </div>
 
-                            <div class="registration_item">
-                                <p class="item_title">PIB (TIN)</p>
-                                <p class="item_text">114574001</p>
-                            </div>
+                                <div class="registration_item">
+                                    <p class="item_title">PIB (TIN)</p>
+                                    <p class="item_text">114574001</p>
+                                </div>
 
-                            <div class="registration_item">
-                                <p class="item_title">Registration Number (OGRN)</p>
-                                <p class="item_text">22041240</p>
-                            </div>
+                                <div class="registration_item">
+                                    <p class="item_title">Registration Number (OGRN)</p>
+                                    <p class="item_text">22041240</p>
+                                </div>
 
-                            <div class="registration_item">
-                                <p class="item_title">Registration Date</p>
-                                <p class="item_text">August 29, 2024</p>
+                                <div class="registration_item">
+                                    <p class="item_title">Registration Date</p>
+                                    <p class="item_text">August 29, 2024</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="registration_col">
-                            <div class="registration_item">
-                                <p class="item_title">Physical Address</p>
-                                <p class="item_text">Resavska, 33/1, 11104, Belgrad, Serbia</p>
-                            </div>
+                            <div class="registration_col">
+                                <div class="registration_item">
+                                    <p class="item_title">Physical Address</p>
+                                    <p class="item_text">Resavska, 33/1, 11104, Belgrad, Serbia</p>
+                                </div>
 
-                            <div class="registration_item">
-                                <p class="item_title">Legal Address</p>
-                                <p class="item_text">Resavska, 33/1, 11104, Belgrad, Serbia</p>
-                            </div>
+                                <div class="registration_item">
+                                    <p class="item_title">Legal Address</p>
+                                    <p class="item_text">Resavska, 33/1, 11104, Belgrad, Serbia</p>
+                                </div>
 
-                            <div class="registration_item">
-                                <p class="item_title">Phone</p>
-                                <p class="item_text">+381 61 2751405</p>
-                            </div>
+                                <div class="registration_item">
+                                    <p class="item_title">Phone</p>
+                                    <p class="item_text">+381 61 2751405</p>
+                                </div>
 
-                            <div class="registration_item">
-                                <p class="item_title">E-mail</p>
-                                <p class="item_text">bda.balkan@gmail.com</p>
+                                <div class="registration_item">
+                                    <p class="item_title">E-mail</p>
+                                    <p class="item_text">bda.balkan@gmail.com</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="registration_col">
-                            <div class="registration_item">
-                                <p class="item_title">OKVED</p>
-                                <p class="item_text">7311 - Delatnost Reklamnih Agencija</p>
-                            </div>
-                            <div class="registration_item">
-                                <p class="item_title">IBAN</p>
-                                <p class="item_text">RS35190007010007793926 (EURO)</p>
-                            </div>
-                            <div class="registration_item">
-                                <p class="item_title">RSD</p>
-                                <p class="item_text">19000000009715022</p>
+                            <div class="registration_col">
+                                <div class="registration_item">
+                                    <p class="item_title">OKVED</p>
+                                    <p class="item_text">7311 - Delatnost Reklamnih Agencija</p>
+                                </div>
+                                <div class="registration_item">
+                                    <p class="item_title">IBAN</p>
+                                    <p class="item_text">RS35190007010007793926 (EURO)</p>
+                                </div>
+                                <div class="registration_item">
+                                    <p class="item_title">RSD</p>
+                                    <p class="item_text">19000000009715022</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                   </div>
                 </div>
             </section>
         </main>
@@ -649,7 +649,6 @@
             </div>
         </div>
     </div>
-
     <div class="modal form_edit_modal2">
         <div class="modal_content">
 
@@ -699,7 +698,38 @@
                     To receive your card, please fill in your details and complete identification.
                 </p>
             </a>
+             <div class="registration_block">
 
+                <label class="passport_upload flex between a_center">
+                    <span>Upload a photo of the registration page from your passport</span>
+                    <input type="file" hidden>
+                    <span class="upload_icon">
+                        <img src="assets/images/file.svg" alt="">
+                    </span>
+                </label>
+
+                <a href="#" class="passport_example flex a_center">
+                    <span class="pasport_text">View an example document photograph</span>
+                    <img src="assets/images/pasport.png" alt="" class="pasport_img">
+                    <img src="assets/images/i_blue.svg" alt="" class="info_bl">
+                     <p>
+                    To receive your card, please fill in your details and complete identification.
+                </p>
+                </a>
+
+            </div>
+            <label class="upload_check flex  modal_chec">
+                <span class="custom_checkbox">
+                    <input type="checkbox" id="reg_toggle" checked>
+                    <span class="checkbox_box">
+                        <svg class="checkbox_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 6">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.04045 0.707107L3.37378 5.37375C3.17851 5.56902 2.86191 5.56902 2.66667 5.37375L0 2.70709L0.707107 2.00002L3.02025 4.31309L7.33331 0L8.04045 0.707107Z" />
+                        </svg>
+                    </span>
+                </span>
+                <p>Upload a photo of the registration page in your passport, if available.</p>
+            </label>           
             <a href="#" class="button blue add_card">
                 Save and continue
             </a>

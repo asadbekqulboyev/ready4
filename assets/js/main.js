@@ -338,3 +338,13 @@ $(document).ready(function () {
     }
   });
 });
+const checkbox = document.getElementById('reg_toggle');
+const block = document.querySelector('.registration_block');
+
+checkbox.addEventListener('change', () => {
+    if (checkbox.checked) {
+        block.classList.remove('hidden');
+    } else {
+        block.classList.add('hidden');
+    }
+});
