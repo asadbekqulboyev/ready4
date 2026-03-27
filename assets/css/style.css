@@ -3001,6 +3001,7 @@
   position: absolute;
   bottom: 35px;
   width: 100%;
+  border-radius: 8px;
   transform: scale(0);
 }
 .modal .pasport_text:hover + .pasport_img {
@@ -3016,7 +3017,6 @@
   color: #2b2b2b;
 }
 .modal .registration_block {
-  overflow: hidden;
   transition: all 0.3s ease;
   max-height: 200px;
   opacity: 1;
@@ -3028,6 +3028,7 @@
   max-height: 0;
   opacity: 0;
   margin: 0;
+  overflow: hidden;
   padding: 0;
   transform: translateY(-8px);
 }
