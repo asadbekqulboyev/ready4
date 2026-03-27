@@ -3001,6 +3001,7 @@
   position: absolute;
   bottom: 35px;
   width: 100%;
+  border-radius: 8px;
   transform: scale(0);
 }
 .modal .pasport_text:hover + .pasport_img {
